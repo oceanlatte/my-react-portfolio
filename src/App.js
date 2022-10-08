@@ -4,6 +4,7 @@ function App() {
   return (
     <div >
       {/* MAIN APP HERE */}
+      <h1>Hello world</h1>
     </div>
   );
 }

@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Work+Sans&display=swap');
 
 :root {
   --tan: #FAEBD7;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.5rem;
 }
 
 a {
@@ -9,12 +14,29 @@ a {
   color: inherit;
 }
 
-h1 {
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 a {
   font-family: 'Parisienne', cursive;
   font-size: 3rem;
+  text-decoration: none;
 }
+
+/*  -header styling-  */
 
 header {
   padding-top: 5px;
   background-color: var(--tan);
+}
+
+.nav-links {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
+.nav-links a {
+  text-decoration: none;
 }

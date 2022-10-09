@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,7 +12,4 @@ code {
     monospace;
 }
 
-h1 {
-  font-family: 'Parisienne', cursive;
-  font-size: 60px;
-}
+

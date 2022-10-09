@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Work Sans', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -23,6 +23,7 @@ h1 a {
   font-family: 'Parisienne', cursive;
   font-size: 3rem;
   text-decoration: none;
+  color: #595959;
 }
 
 /*  -header styling-  */
@@ -39,4 +40,24 @@ header {
 
 .nav-links a {
   text-decoration: none;
+}
+
+/*  --about me styling--  */
+.about-title {
+  font-size: 3rem;
+}
+
+.about-title-span {
+  font-family: 'Parisienne', cursive;
+  color: #595959;
+}
+
+.fun-fact-title {
+  font-family: 'Parisienne', cursive;
+  /* font-size: 2rem; */
+  color: #595959;
+}
+
+.fun-fact {
+  font-size: 1.15rem;
 }

@@ -93,3 +93,19 @@ header {
 #card-styling a {
   text-decoration: none;
 }
+
+/* ---- Footer Styling ---- */
+footer {
+  background-color: var(--tan);
+  font-size: 2rem;
+  font-family: var(--work-sans);
+  color: var(--gray);
+}
+
+.ul-footer {
+  list-style: none;
+}
+
+.svg-container {
+  width: 50px;
+}

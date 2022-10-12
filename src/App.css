@@ -29,10 +29,16 @@ h1 a {
   color: #595959;
 }
 
-/* UTILS */
+/* -----UTILS------- */
 .section-title {
   color: var(--gray);
   font-size: 3rem;
+  font-family: var(--work-sans);
+}
+
+.btn-style {
+  background-color: #b58db6;
+  color: white;
   font-family: var(--work-sans);
 }
 

@@ -2,6 +2,8 @@
 
 :root {
   --tan: #FAEBD7;
+  --gray: #595959;
+  --work-sans: 'Work Sans', sans-serif;
 }
 
 body {
@@ -26,6 +28,13 @@ h1 a {
   color: #595959;
 }
 
+/* UTILS */
+.section-title {
+  color: var(--gray);
+  font-size: 3rem;
+  font-family: var(--work-sans);
+}
+
 /*  -header styling-  */
 
 header {
@@ -43,13 +52,9 @@ header {
 }
 
 /*  --about me styling--  */
-.about-title {
-  font-size: 3rem;
-}
-
 .about-title-span {
   font-family: 'Parisienne', cursive;
-  color: #595959;
+  color: black;
 }
 
 .about-description {
@@ -66,4 +71,18 @@ header {
 .fun-fact {
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
+}
+
+/* -- Portfolio and Project Component styling -- */
+.portfolio-container {
+  /* background-color: #B58DB6; */
+  background-image: linear-gradient(to top, #b58db6, #c3aacb, #d4c7df, #e7e3f0, #ffffff);
+}
+
+#card-styling {
+  background-color: transparent;
+}
+
+#card-styling a {
+  text-decoration: none;
 }

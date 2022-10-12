@@ -49,7 +49,7 @@ function Project() {
   return (
     <div className='card-container d-flex justify-content-around flex-wrap'>
     {projInfo.map((project) => (
-          <div className='card m-3 col-lg-5 col-sm-10'>
+          <div className='card m-3 mx-5 col-lg-5 col-sm-10 p-3 flex-grow-1' id='card-styling'>
             <h3><a href={project.link} target='_blank' rel='noreferrer'>{project.name}</a></h3>
             <p>View the <a href={project.gitHub}>GitHub repo</a></p>
             <img src={project.image} alt=''/>

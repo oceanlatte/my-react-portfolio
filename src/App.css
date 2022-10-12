@@ -4,6 +4,7 @@
   --tan: #FAEBD7;
   --gray: #595959;
   --work-sans: 'Work Sans', sans-serif;
+  --parisienne: 'Parisienne', cursive;
 }
 
 body {
@@ -54,7 +55,6 @@ header {
 /*  --about me styling--  */
 .about-title-span {
   font-family: 'Parisienne', cursive;
-  color: black;
 }
 
 .about-description {
@@ -81,6 +81,7 @@ header {
 
 #card-styling {
   background-color: transparent;
+  font-family: var(--work-sans);
 }
 
 #card-styling a {

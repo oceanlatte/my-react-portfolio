@@ -5,6 +5,7 @@ import weatherForecaster from '../assets/images/weather-forecaster-preview.png';
 import boozeNBinge from '../assets/images/booze-n-binge-preview.png';
 import scheduler from '../assets/images/scheduler-preview.png';
 import sinato from '../assets/images/sinato-homepage.png';
+import '../App.css';
 
 function Project() {
   const projInfo = [{
@@ -46,17 +47,16 @@ function Project() {
 
   
   return (
-    projInfo.map((project) => (
-      <div className='card-container'>
-          <div className='card'>
-            <h3>{project.name}</h3>
-            <p>See the site <a href={project.link}>here</a></p> 
+    <div className='card-container d-flex justify-content-around flex-wrap'>
+    {projInfo.map((project) => (
+          <div className='card m-3 col-lg-5 col-sm-10'>
+            <h3><a href={project.link} target='_blank' rel='noreferrer'>{project.name}</a></h3>
             <p>View the <a href={project.gitHub}>GitHub repo</a></p>
             <img src={project.image} alt=''/>
           </div>
-      </div>
 
-    ))
+    ))}
+      </div>
     )
 }
 

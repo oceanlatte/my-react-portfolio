@@ -6,7 +6,9 @@ function Contact() {
     {name: '', email: '', message: ''}
   );
 
-  const [errMsg, setErrMsg] = useState('');
+  const [nameErrMsg, setNameErrMsg] = useState('');
+  const [emailErrMsg, setEmailErrMsg] = useState('');
+  const [messageErrMsg, setMessageErrMsg] = useState('');
 
   // deconstructed from formState
   const { name, email, message } = formState;
@@ -16,26 +18,30 @@ function Contact() {
   }
 
   const handleChange = e => {
-    if (e.target.name === 'email') {
-      const valid = emailValidate(e.target.value);
-      if (!valid) {
-        setErrMsg('The email address is invalid. Please try again.');
+      if (e.target.name === 'email') {
+        const valid = emailValidate(e.target.value);
+        if (!valid) {
+          setEmailErrMsg('The email address is invalid. Please try again.');
+        }
+        else {
+          setEmailErrMsg('');
+        }
+      }
+      else if (e.target.name === 'name' && !e.target.value.length) {
+        setNameErrMsg(`A name is required. Please enter a value.`);
+      }
+      else if (e.target.name === 'message' && !e.target.value.length)  {
+        setMessageErrMsg('A message is required. Please enter a value.');
       }
       else {
-        setErrMsg('');
+        setNameErrMsg(''); 
+        setEmailErrMsg('');
+        setMessageErrMsg('');
       }
-    }
-    else {
-      if (!e.target.value.length) {
-        setErrMsg(`${e.target.name} is required. Please enter a value.`);
-      }
-      else {
-        setErrMsg('');
-      }
-    }
+    
     // assigning input from form to key value pairs with spread operator
     // e.target.NAME is grabbing the FORM label name
-    if (!errMsg) {
+    if (!nameErrMsg && !emailErrMsg && !messageErrMsg) {
       setFormState({...formState, [e.target.name]: e.target.value })
     }
   };
@@ -49,15 +55,24 @@ function Contact() {
       <form className='col-11 col-xl-9' onSubmit={submitHandler}>
         <div className='mb-3'>
           <label htmlFor='name'>Name:</label>
-          <input type='text' name='name' className='form-control' defaultValue={name} onChange={handleChange} />
+          <input type='text' name='name' className='form-control' aria-describedby='nameErrMsg' defaultValue={name} onBlur={handleChange} />
+          {nameErrMsg && (
+            <div id='nameErrMsg' className='form-text'>{nameErrMsg}</div>
+          )}
         </div>
         <div className='mb-3'>
           <label htmlFor='email'>Email</label>
-          <input type='email' name='email' className='form-control' defaultValue={email} onChange={handleChange} />
+          <input type='email' name='email' className='form-control' aria-describedby='emailErrMsg' defaultValue={email} onBlur={handleChange} />
+          {emailErrMsg && (
+            <div id='emailErrMsg' className='form-text'>{emailErrMsg}</div>
+          )}
         </div>
         <div className='mb-3'>
-          <label htmlFor='message'>Message</label>
-          <textarea name='message' rows='5' className='form-control' defaultValue={message} onChange={handleChange} />
+          <label htmlFor='message'>Message</label> 
+          <textarea name='message' rows='5' className='form-control' aria-describedby='messageErrMsg' defaultValue={message} onBlur={handleChange} />
+          {messageErrMsg && (
+            <div id='messageErrMsg' className='form-text'>{messageErrMsg}</div>
+          )}
         </div>
         <button type='submit' className='rounded-pill px-4 border-0 btn-style'>Submit</button>
       </form>

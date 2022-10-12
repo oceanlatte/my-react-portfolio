@@ -3,7 +3,7 @@ import selfie from '../assets/images/portfolio-img-1.JPG';
 
 function About() {
   return (
-    <article id='#about'>
+    <article id='about'>
       <h2 className='section-title text-center my-3'>
         Hello!👋🏽 My name is <span className="about-title-span">Ocean</span>.
       </h2>

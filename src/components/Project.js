@@ -15,7 +15,7 @@ function Project() {
       image: codeQuiz
     }, 
     {
-      name: 'CSS Portoflio',
+      name: 'CSS Portflio',
       link: 'https://oceanlatte.github.io/my-portfolio/',
       gitHub: 'https://github.com/oceanlatte/my-portfolio',
       image: cssPortfolio

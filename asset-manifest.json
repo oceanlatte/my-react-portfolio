@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.0906633d.css",
+    "main.js": "/my-react-portfolio/static/js/main.43d14bdf.js",
+    "static/media/portfolio-img-1.JPG": "/my-react-portfolio/static/media/portfolio-img-1.36510fec42d9a679b0e8.JPG",
+    "static/media/booze-n-binge-preview.png": "/my-react-portfolio/static/media/booze-n-binge-preview.bc911622d220e23420f8.png",
+    "static/media/portfolio-preview.jpg": "/my-react-portfolio/static/media/portfolio-preview.5aee5e1f24ad3bd5b045.jpg",
+    "static/media/sinato-homepage.png": "/my-react-portfolio/static/media/sinato-homepage.8031d29355d9901b7f1c.png",
+    "static/media/weather-forecaster-preview.png": "/my-react-portfolio/static/media/weather-forecaster-preview.bce8c3c50c584e7fdf21.png",
+    "static/media/ocean-veliz-resume.pdf": "/my-react-portfolio/static/media/ocean-veliz-resume.9b1a4c3c6c3c3c6e3a51.pdf",
+    "static/media/scheduler-preview.png": "/my-react-portfolio/static/media/scheduler-preview.5e194ef1fbfc3c5433d7.png",
+    "static/media/code-quiz-preview.png": "/my-react-portfolio/static/media/code-quiz-preview.dcf79b5a52a9bf176020.png",
+    "static/media/github-logo-duotone-svgrepo-com.svg": "/my-react-portfolio/static/media/github-logo-duotone-svgrepo-com.9b73cae29476ee8d9e2d66e545ec7b45.svg",
+    "static/media/twitter-logo-duotone-svgrepo-com.svg": "/my-react-portfolio/static/media/twitter-logo-duotone-svgrepo-com.1e99659b37ba760b9f4c5e9bd5331afb.svg",
+    "static/media/linkedin-logo-duotone-svgrepo-com.svg": "/my-react-portfolio/static/media/linkedin-logo-duotone-svgrepo-com.06cd5e2f65ff3ac9f7a4d6579606c8ec.svg",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.0906633d.css.map": "/my-react-portfolio/static/css/main.0906633d.css.map",
+    "main.43d14bdf.js.map": "/my-react-portfolio/static/js/main.43d14bdf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0906633d.css",
+    "static/js/main.43d14bdf.js"
+  ]
+}

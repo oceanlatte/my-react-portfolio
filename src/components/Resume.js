@@ -16,26 +16,6 @@ function Resume() {
     }
   ];
 
-  const softSkills = [
-    'Communication',
-    'Discipline',
-    'Organization',
-    'Time Managment',
-    'Dependability',
-    'Stewardship'
-  ];
-
-  const techSkills = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'Git',
-    'jQuery',
-    'Bootstrap',
-    'Node.js',
-    
-  ];
-
   const education = [
     {
       level: 'High School Diploma',
@@ -49,17 +29,49 @@ function Resume() {
     }
   ];
 
+  const softSkills = [
+    'Communication',
+    'Discipline',
+    'Organization',
+    'Time Managment',
+    'Dependability',
+    'Stewardship'
+  ];
+  
+  const mernStack = [
+    'MongoDB',
+    'Express.js',
+    'React',
+    'Node.js'
+  ];
+
+  const techSkills = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'Git',
+    'jQuery',
+    'Bootstrap',
+    'MySQL',
+    'GraphQL',
+    'JSON',
+    'DOM Manipulation',
+    'MVC paradigm',
+    'Agile Project Management',
+  ];
 
   return (
-    <div className='ps-3'>
+    <div className='px-3 resume'>
       <h2 className='section-title'>Resume 🖇️</h2>
-      <p>Download a copy of my resume: here</p>
-      <article>
+      <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
+        here</a>
+        ✨</p>
+      <article className='ps-4'>
+        <h3>Experience</h3>
         <div className='card-container'>
-          <h3>Experience</h3>
             {/* JOB descriptions */}
             {experienceInfo.map((job) => (
-              <div className='card'>
+              <div className='card col-lg-5 col-sm-8 m-3'>
                 <h4 className='card-header'>{job.jobTitle}</h4>
                 <ul>
                   <li>{job.company}</li>
@@ -71,34 +83,45 @@ function Resume() {
         </div>
         <div>
           <h3>Education</h3>
-              <div className='card-container'>
-                {education.map((school) => (
-                  <div className='card'>
-                    <h4 className='card-header'>{school.name}</h4>
-                    <ul>
-                      <li>{school.timeframe}</li>
-                      <li>{school.level}</li>
-                    </ul>
-                  </div>
-                ))}
+          <div className='card-container d-flex flex-wrap'>
+            {education.map((school) => (
+              <div className='card m-3 col-lg-3 col-sm-5'>
+                <h4 className='card-header'>{school.name}</h4>
+                <ul>
+                  <li>{school.timeframe}</li>
+                  <li>{school.level}</li>
+                </ul>
               </div>
+            ))}
+          </div>
         </div>
-        <div>
+        <div className='text-center my-3'>
           <h3>MERN Stack</h3>
-          <h4>Technologies</h4>
-          <ul>
-            {techSkills.map((skill) => (
-              <li>{skill}</li>
+          <ul className='list-group list-group-horizontal d-flex justify-content-center'>
+            {mernStack.map((skill) => (
+              <li className='px-5 list-group-item'>{skill}</li>
             ))}
           </ul>
         </div>
-        <div>
-          <h4>Soft Skills</h4>
+
+        <div className='d-flex flex-wrap my-5 justify-content-center'>
+          <div className='mx-2'>
+            <h4>Technologies</h4>
+            <ul>
+              {techSkills.map((skill) => (
+                <li>{skill}</li>
+              ))}
+            </ul>
+          </div>
+        
+          <div className='mx-2'>
+            <h4>Soft Skills</h4>
               <ul>
                 {softSkills.map((skill) => (
                   <li>{skill}</li>
                 ))}
               </ul>
+          </div>
         </div>
       </article>
       

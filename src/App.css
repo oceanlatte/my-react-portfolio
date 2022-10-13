@@ -94,6 +94,11 @@ header {
   text-decoration: none;
 }
 
+ /* ----- Resume Styling ------ */
+.resume {
+  font-family: var(--work-sans);
+}
+
 /* ---- Footer Styling ---- */
 footer {
   background-color: var(--tan);

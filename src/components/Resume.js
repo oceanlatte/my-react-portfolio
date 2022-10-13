@@ -61,7 +61,7 @@ function Resume() {
   ];
 
   return (
-    <div className='px-3 resume'>
+    <div className='px-3 resume' id='resume'>
       <h2 className='section-title'>Resume 🖇️</h2>
       <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
         here</a>

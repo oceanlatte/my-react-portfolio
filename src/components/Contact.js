@@ -49,7 +49,7 @@ function Contact() {
 
   
   return (
-    <div className='ps-3 my-3'>
+    <div className='ps-3 my-3' id='contact'>
       <h2 className='section-title'>Contact ⌨️</h2>
       
       <form className='col-11 col-xl-9' onSubmit={submitHandler}>

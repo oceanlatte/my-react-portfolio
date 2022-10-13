@@ -11,10 +11,10 @@ function Nav() {
       <a href='#portfolio' className='px-3 nav-links'>
           Portfolio
         </a>
-      <span className='px-3 nav-links' >
+      <a href='#contact' className='px-3 nav-links' >
           Contact
-        </span>
-      <a href='link' className='px-3 nav-links'>
+        </a>
+      <a href='#resume' className='px-3 nav-links'>
           Resume
         </a>
     </nav>

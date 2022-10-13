@@ -5,6 +5,7 @@
   --gray: #595959;
   --work-sans: 'Work Sans', sans-serif;
   --parisienne: 'Parisienne', cursive;
+  --lavendar-gradient: linear-gradient(to top, #b58db6, #c3aacb, #d4c7df, #e7e3f0, #ffffff);
 }
 
 body {
@@ -97,6 +98,11 @@ header {
  /* ----- Resume Styling ------ */
 .resume {
   font-family: var(--work-sans);
+  background-image: var(--lavendar-gradient);
+}
+
+#mern-span {
+  font-weight: bold;
 }
 
 /* ---- Footer Styling ---- */

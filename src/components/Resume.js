@@ -41,7 +41,7 @@ function Resume() {
   const mernStack = [
     'MongoDB',
     'Express.js',
-    'React',
+    'React.js',
     'Node.js'
   ];
 
@@ -95,8 +95,8 @@ function Resume() {
             ))}
           </div>
         </div>
-        <div className='text-center my-3'>
-          <h3>MERN Stack</h3>
+        <div className='text-center mt-3'>
+          <h3><span id='mern-span'>MERN</span> Stack Developer</h3>
           <ul className='list-group list-group-horizontal d-flex justify-content-center'>
             {mernStack.map((skill) => (
               <li className='px-5 list-group-item'>{skill}</li>
@@ -104,7 +104,7 @@ function Resume() {
           </ul>
         </div>
 
-        <div className='d-flex flex-wrap my-5 justify-content-center'>
+        <div className='d-flex flex-wrap mt-5 justify-content-center'>
           <div className='mx-2'>
             <h4>Technologies</h4>
             <ul>

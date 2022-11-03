@@ -5,6 +5,7 @@ import weatherForecaster from '../assets/images/weather-forecaster-preview.png';
 import boozeNBinge from '../assets/images/booze-n-binge-preview.png';
 import scheduler from '../assets/images/scheduler-preview.png';
 import sinato from '../assets/images/sinato-homepage.png';
+import bios from '../assets/images/bios-preview.png';
 import '../App.css';
 
 function Project() {
@@ -43,7 +44,14 @@ function Project() {
       link: 'https://sinato.herokuapp.com/',
       gitHub: 'https://github.com/oceanlatte/sinato',
       image: sinato
-    }];
+    }, 
+    {
+      name: 'Bios Todos',
+      link: 'https://biostodos.herokuapp.com/',
+      gitHub: 'https://github.com/oceanlatte/bios-planner',
+      image: bios
+    }
+  ];
 
   
   return (

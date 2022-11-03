@@ -10,5 +10,5 @@ This application is intended to show case skills with React.js. As well as share
 * CSS
 
 ## Preview
-Find the finished application [here](https://oceanlatte.github.io/my-react-portfolio/)
+Find the finished application [here](https://oceanlatte.github.io/portfolio/)
 ![react-portfolio-preview](./src/assets/images/oceans-portfolio.png)

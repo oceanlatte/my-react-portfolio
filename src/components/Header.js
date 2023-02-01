@@ -7,7 +7,7 @@ function Header() {
       <h1 className='mx-3'>
         <a href='/'>Ocean</a>
       </h1>
-      <Nav></Nav>
+      <Nav/>
     </header>
   )
 }

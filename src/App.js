@@ -12,8 +12,7 @@ function App() {
 
   return (
     <div>
-      <Header>
-      </Header>
+      <Header />
       <main>
         <About />
         <Portfolio/>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -8,14 +8,28 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
+  const [linkSelected, setLinkSelected] = useState('about');
+
+  // if link state is 'portfolio' display #portfolio
+  // default is to show 'about'
+  console.log(linkSelected)
+  // 
   return (
     <div>
-      <Header />
+      <Header 
+         linkSelected={linkSelected}
+         setLinkSelected={setLinkSelected}
+      />
       <main>
         <About />
-        <Portfolio/>
-        <Contact />
-        <Resume />
+        {!linkSelected === '#portfolio' ? (
+            <Portfolio />
+          ) : (
+            <>
+            <Resume />
+            <Contact />
+            </>
+          )}
       </main>
       <Footer/>
     </div>

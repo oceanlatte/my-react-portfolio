@@ -1,10 +1,10 @@
 import React from 'react';
-import codeQuiz from '../assets/images/code-quiz-preview.png';
-import cssPortfolio from '../assets/images/portfolio-preview.jpg';
-import weatherForecaster from '../assets/images/weather-forecaster-preview.png';
-import boozeNBinge from '../assets/images/booze-n-binge-preview.png';
-import scheduler from '../assets/images/scheduler-preview.png';
-import sinato from '../assets/images/sinato-homepage.png';
+import codeQuiz from '../assets/images/project-shots/code-quiz-preview.png';
+import cssPortfolio from '../assets/images/project-shots/portfolio-preview.jpg';
+import weatherForecaster from '../assets/images/project-shots/weather-forecaster-preview.png';
+import boozeNBinge from '../assets/images/project-shots/booze-n-binge-preview.png';
+import scheduler from '../assets/images/project-shots/scheduler-preview.png';
+import sinato from '../assets/images/project-shots/sinato-homepage.png';
 import '../App.css';
 
 function Project() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import selfie from '../assets/images/portfolio-img-1.JPG';
+import selfie from '../assets/images/about/portfolio-img-1.JPG';
 
 function About() {
   return (

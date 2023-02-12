@@ -1,7 +1,7 @@
 import React from 'react';
-import twitterSvg from '../assets/images/twitter-logo-duotone-svgrepo-com.svg';
-import gitHubSvg from '../assets/images/github-logo-duotone-svgrepo-com.svg';
-import linkedInSvg from '../assets/images/linkedin-logo-duotone-svgrepo-com.svg';
+import twitterSvg from '../assets/images/footer-icons/twitter-logo-duotone-svgrepo-com.svg';
+import gitHubSvg from '../assets/images/footer-icons/github-logo-duotone-svgrepo-com.svg';
+import linkedInSvg from '../assets/images/footer-icons/linkedin-logo-duotone-svgrepo-com.svg';
 
 function Footer() {
   return (

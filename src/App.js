@@ -8,7 +8,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  const [linkSelected, setLinkSelected] = useState('/');
+  const [linkSelected, setLinkSelected] = useState(null);
 
   // if link state is 'portfolio' display #portfolio
   // default is to show 'about'
@@ -28,7 +28,7 @@ function App() {
       case '#contact':
         return <Contact/>
       default:
-        <About/>
+        <About />
     }
   }
 
@@ -39,18 +39,9 @@ function App() {
          setLinkSelected={setLinkSelected}
       />
       <main>
-        <>
-        {renderComponent()}
-        </>
-        {/* {linkSelected === '#portfolio' ? (
-            <Portfolio />
-          ) : (
-            <>
-              <About />
-              <Resume />
-              <Contact />
-            </>
-          )} */}
+        {linkSelected === null ? (<About/>) : (
+          renderComponent()
+        )}
       </main>
       <Footer/>
     </div>

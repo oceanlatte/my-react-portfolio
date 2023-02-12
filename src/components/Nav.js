@@ -2,26 +2,9 @@ import React, { useState } from 'react';
 import '../App.css';
 
 function Nav(props) {
-  const { linkSelected, setLinkSelected } = props;
-  
-  // Handles getting the name of the clicked Navbar link 
-  function handleClick({ target }) {
-    const clickedHeaderLink = target.outerText;
-    const pageName = clickedHeaderLink.toLowerCase().trim();
-
-    // if clicked navbar name is more than two words, replace the space with a dash
-    if (pageName.search(' ')) {
-      const newLinkName = pageName.replace(' ', '-');
-      setLinkSelected('#' + newLinkName);
-    } 
-    else {
-      setLinkSelected('#' + pageName)
-    }
-
-  }
+  const { linkSelected, setLinkSelected, handleClick } = props;
 
   return (
-    
     <nav className='d-flex nav-links' >
       <a href={linkSelected} className='px-3 nav-links' onClick={handleClick} >
           About Me

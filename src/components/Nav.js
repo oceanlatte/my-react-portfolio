@@ -21,6 +21,7 @@ function Nav(props) {
   }
 
   return (
+    
     <nav className='d-flex nav-links' >
       <a href={linkSelected} className='px-3 nav-links' onClick={handleClick} >
           About Me

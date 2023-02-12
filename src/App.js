@@ -8,12 +8,30 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  const [linkSelected, setLinkSelected] = useState('about');
+  const [linkSelected, setLinkSelected] = useState('/');
 
   // if link state is 'portfolio' display #portfolio
   // default is to show 'about'
-  console.log(linkSelected)
-  // 
+
+  // if on the home page or select about => show about
+  // if we click on portfolio => ONLY portfolio
+  // if we click on either resume or contact => resume / contact
+
+  const renderComponent = () => {
+    switch (linkSelected) {
+      case '#about-me':
+        return <About/>
+      case '#portfolio':
+        return <Portfolio/>
+      case '#resume':
+        return <Resume/>
+      case '#contact':
+        return <Contact/>
+      default:
+        <About/>
+    }
+  }
+
   return (
     <div>
       <Header 
@@ -21,15 +39,18 @@ function App() {
          setLinkSelected={setLinkSelected}
       />
       <main>
-        <About />
-        {!linkSelected === '#portfolio' ? (
+        <>
+        {renderComponent()}
+        </>
+        {/* {linkSelected === '#portfolio' ? (
             <Portfolio />
           ) : (
             <>
-            <Resume />
-            <Contact />
+              <About />
+              <Resume />
+              <Contact />
             </>
-          )}
+          )} */}
       </main>
       <Footer/>
     </div>

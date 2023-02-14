@@ -1,8 +1,8 @@
 import React from 'react';
-import phoneIcon from '../assets/images/contact-icons/mobile-svgrepo.svg'
-import emailIcon from '../assets/images/contact-icons/envelope-svgrepo.svg'
-import commentIcon from '../assets/images/contact-icons/comment-svgrepo.svg'
-import linkedInIcon from '../assets/images/contact-icons/linkedin-svgrepo.svg'
+import phoneIcon from '../assets/images/contact-icons/phone.svg'
+import emailIcon from '../assets/images/contact-icons/email.svg'
+import commentIcon from '../assets/images/contact-icons/message-bubble.svg'
+import linkedInIcon from '../assets/images/contact-icons/linkedin.svg'
 
 function Contact() {
   // lightbulb for name difference
@@ -14,7 +14,7 @@ function Contact() {
       <h2 className='section-title'>Contact</h2>
         <div>
             <img src={commentIcon} alt='chat bubble icon'className='comment-container'/>
-          <div className='d-flex justify-content-center'>
+          <div className='d-flex justify-content-around py-4 text-center'>
             <div>
               <img src={phoneIcon} alt='phone icon' className='icon-container'/>
               <p>(608) 852-2565</p>

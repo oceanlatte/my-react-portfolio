@@ -5,7 +5,7 @@
   --gray: #595959;
   --work-sans: 'Work Sans', sans-serif;
   --parisienne: 'Parisienne', cursive;
-  --lavendar-gradient: linear-gradient(to top, #b58db6, #c3aacb, #d4c7df, #e7e3f0, #ffffff);
+  --lavender-gradient: linear-gradient(to top, #b58db6, #c3aacb, #d4c7df, #e7e3f0, #ffffff);
 }
 
 body {
@@ -35,6 +35,7 @@ h1 a {
 h2, h3, h4 {
   font-family: var(--work-sans);
 }
+
 .section-title {
   color: var(--gray);
   font-size: 3rem;
@@ -99,10 +100,24 @@ header {
   text-decoration: none;
 }
 
+/* --- Contact Styling --- */
+.icon-container {
+  width: 400px;
+}
+
+.comment-container  {
+  width: 50px;
+}
+
+.contact-li {
+  list-style: none;
+  width: 150px;
+}
+
  /* ----- Resume Styling ------ */
 .resume {
   font-family: var(--work-sans);
-  background-image: var(--lavendar-gradient);
+  background-image: var(--lavender-gradient);
 }
 
 #mern-span {

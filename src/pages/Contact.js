@@ -7,28 +7,30 @@ import linkedInIcon from '../assets/images/contact-icons/linkedin-svgrepo.svg'
 function Contact() {
   // lightbulb for name difference
   // grid of phone, email, linkedin ...twitter? github?
+  // add links to each icon
   
   return (
-    <div className='ps-3 my-3' id='contact'>
+    <main className='ps-3 my-3' id='contact'>
       <h2 className='section-title'>Contact</h2>
         <div>
-          <img src={commentIcon}/>
-          <ul className='d-flex flex-wrap'>
-            <li>
-              <img src={phoneIcon}/>
+            <img src={commentIcon} alt='chat bubble icon'className='comment-container'/>
+          <div className='d-flex justify-content-center'>
+            <div>
+              <img src={phoneIcon} alt='phone icon' className='icon-container'/>
               <p>(608) 852-2565</p>
-            </li>
-            <li>
-              <img src={emailIcon}/>
+            </div>
+            <div>
+              <img src={emailIcon} alt='email envelope icon' className='icon-container'/>
               <p>osciris.veliz@gmail.com</p>
-            </li>
-            <li>
-              <img src={linkedInIcon}/>
-              <p>linkedIn</p>
-            </li>
-          </ul>
+            </div>
+            <div>
+              <img src={linkedInIcon} alt='linkedIn logo icon' className='icon-container'/>
+              <a href='linkedin.com/in/ocean-veliz-921693239/' className='d-block'>LinkedIn</a>
+            </div>
+            
+          </div>
         </div>
-    </div>
+    </main>
   )
 };
 

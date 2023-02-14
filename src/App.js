@@ -10,13 +10,6 @@ import Footer from './components/Footer';
 function App() {
   const [linkSelected, setLinkSelected] = useState(null);
 
-  // if link state is 'portfolio' display #portfolio
-  // default is to show 'about'
-
-  // if on the home page or select about => show about
-  // if we click on portfolio => ONLY portfolio
-  // if we click on either resume or contact => resume / contact
-
   const renderComponent = () => {
     switch (linkSelected) {
       case '#about-me':

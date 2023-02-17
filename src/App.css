@@ -117,8 +117,12 @@ header {
 .href-contact {
   font-size: 1.75rem;
   text-decoration: none;
+  color: var(--gray);
 }
 
+.href-contact a:visited {
+  color: var(--gray);
+}
 
  /* ----- Resume Styling ------ */
 .resume {

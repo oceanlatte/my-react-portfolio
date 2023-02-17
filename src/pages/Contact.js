@@ -14,21 +14,36 @@ function Contact() {
         <div>
             <img src={commentIcon} alt='chat bubble icon'className='comment-container'/>
           <div className='d-flex justify-content-around py-4 text-center'>
+            {/* Phone Contact Div  */}
             <div>
-              <img src={phoneIcon} alt='phone icon' className='icon-container'/>
-              <h3 className='my-3'>
-                (608) 852-2565
-              </h3>
+              <a href='tel:6088522565' className='href-contact'>
+                <img src={phoneIcon} alt='phone icon' className='icon-container'/>
+              </a>
+              <a href='tel:6088522565' className='href-contact'>
+                <h3 className='my-3'>
+                  (608) 852-2565
+                </h3>
+              </a>
             </div>
+            {/* Email Contact Div */}
             <div>
+            <a href='mailto:osciris.veliz@gmail.com' className='href-contact'>
               <img src={emailIcon} alt='email envelope icon' className='icon-container'/>
-              <h3 className='my-3'>
-                osciris.veliz@gmail.com
-              </h3>
+              </a>
+              <a href='mailto:osciris.veliz@gmail.com' className='href-contact'>
+                <h3 className='my-3'>
+                  osciris.veliz@gmail.com
+                </h3>
+              </a>
             </div>
+            {/* LinkedIn Contact Div */}
             <div>
+            <a href='https://www.linkedin.com/in/ocean-veliz-921693239/' target='_blank' className='d-block href-contact my-3'>
               <img src={linkedInIcon} alt='linkedIn logo icon' className='icon-container'/>
-              <a href='linkedin.com/in/ocean-veliz-921693239/' className='d-block href-contact my-3'>LinkedIn</a>
+              </a>
+              <a href='https://www.linkedin.com/in/ocean-veliz-921693239/' target='_blank' className='d-block href-contact my-3'>
+                LinkedIn
+              </a>
             </div>
             
           </div>

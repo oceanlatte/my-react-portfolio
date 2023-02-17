@@ -102,7 +102,7 @@ header {
 
 /* --- Contact Styling --- */
 .icon-container {
-  width: 300px;
+  width: 250px;
 }
 
 .comment-container  {
@@ -113,6 +113,12 @@ header {
   list-style: none;
   width: 150px;
 }
+
+.href-contact {
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+
 
  /* ----- Resume Styling ------ */
 .resume {

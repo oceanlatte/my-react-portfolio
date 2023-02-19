@@ -1,18 +1,16 @@
 import React from 'react';
 import phoneIcon from '../assets/images/contact-icons/phone.svg'
 import emailIcon from '../assets/images/contact-icons/email.svg'
-import commentIcon from '../assets/images/contact-icons/message-bubble.svg'
 import linkedInIcon from '../assets/images/contact-icons/linkedin.svg'
+import Popover from '../components/Popover';
 
 function Contact() {
-  // link for name difference
-  // add links to each icon
-  
+
   return (
     <main className='mt-4 ps-2 mb-2' id='contact'>
       <h2 className='section-title'>Contact</h2>
         <div>
-            <img src={commentIcon} alt='chat bubble icon'className='comment-container'/>
+          <Popover></Popover>
           <div className='d-flex justify-content-around py-4 text-center'>
             {/* Phone Contact Div  */}
             <div>

@@ -124,6 +124,17 @@ header {
   color: var(--gray);
 }
 
+ /* ----Popover Styling ----- */
+ #popover {
+  background-color: #e6e6e6;
+  width: fit-content;
+  margin-left: 10px;
+  padding: 3px 8px 0 8px;
+  font-size: 15px;
+  visibility: hidden;
+  border-radius: 10px;
+ }
+
  /* ----- Resume Styling ------ */
 .resume {
   font-family: var(--work-sans);

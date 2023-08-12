@@ -78,6 +78,7 @@ header {
 /*  --about me styling--  */
 .about-title-span {
   font-family: 'Parisienne', cursive;
+  text-shadow: 2px 2px 3px var(--lavendar);
 }
 
 .about-description {

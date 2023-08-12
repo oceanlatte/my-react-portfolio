@@ -14,6 +14,13 @@ function About() {
         I always wanted to go to school for coding, but just recently made the leap to start learning! 
         I am so excited to be doing something that excites me and I look forward to a new career.
         <br/>
+        <br/>
+        I have been in the workforce since the age of 14 and graduated high school at 16.
+        I have 12 years of experience in a team setting.
+        I'm known for being a top performer and a leader in my roles. I am a fast learning problem solver looking for a team willing
+        to work with me on my career development as a web developer. 
+        <br/> 
+        <br/>
         <span className="fun-fact-title">Fun fact: </span> 
         <span className='fun-fact'>
           I did a demonstration speech in high school on HTML basics using Tumblr as a pseudo code editor!

@@ -3,9 +3,11 @@
 :root {
   --tan: #FAEBD7;
   --gray: #595959;
+  --lavendar: #b58db6;
   --work-sans: 'Work Sans', sans-serif;
   --parisienne: 'Parisienne', cursive;
   --lavender-gradient: linear-gradient(to top, #b58db6, #c3aacb, #d4c7df, #e7e3f0, #ffffff);
+  --header-gradient: linear-gradient(to bottom, #d4c7df, #cfbbd6, #caafcd, #c6a3c3, #c297b8);
 }
 
 body {
@@ -30,6 +32,13 @@ h1 a {
   color: #595959;
 }
 
+#header-name {
+  text-shadow: 5px 5px 5px var(--lavendar);
+  border-radius: 80px;
+  padding: 0 30px;
+  backdrop-filter: blur(10px);
+}
+
 /* -----UTILS------- */
 
 h2, h3, h4 {
@@ -52,16 +61,18 @@ h2, h3, h4 {
 
 header {
   padding-top: 5px;
-  background-color: var(--tan);
 }
 
 .nav-links {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25rem;
+  background-image: var(--header-gradient);
+  border-radius: 30px;
+  padding: 0 5px;
 }
 
 .nav-links a {
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 /*  --about me styling--  */
@@ -124,7 +135,7 @@ header {
   color: var(--gray);
 }
 
- /* ----Popover Styling ----- */
+ /* ----Popover Styling -----
  #popover {
   background-color: #e6e6e6;
   width: fit-content;
@@ -133,7 +144,7 @@ header {
   font-size: 15px;
   visibility: hidden;
   border-radius: 10px;
- }
+ } */
 
  /* ----- Resume Styling ------ */
 .resume {
@@ -147,7 +158,7 @@ header {
 
 /* ---- Footer Styling ---- */
 footer {
-  background-color: var(--tan);
+  background-color: var(--lavendar);
   font-size: 2rem;
   font-family: var(--work-sans);
   color: var(--gray);

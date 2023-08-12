@@ -2,6 +2,7 @@ import React from 'react';
 import phoneIcon from '../assets/images/contact-icons/phone.svg'
 import emailIcon from '../assets/images/contact-icons/email.svg'
 import linkedInIcon from '../assets/images/contact-icons/linkedin.svg'
+import githubIcon from '../assets/images/contact-icons/github-blue.svg'
 
 function Contact() {
 
@@ -39,6 +40,15 @@ function Contact() {
               </a>
               <a href='https://www.linkedin.com/in/ocean-veliz-921693239/' target='_blank' className='d-block href-contact my-3'>
                 LinkedIn
+              </a>
+            </div>
+            {/* GitHub Contact Div */}
+            <div>
+            <a href='https://github.com/oceanlatte' target='_blank' className='d-block href-contact my-3'>
+              <img src={githubIcon} alt='github logo icon' className='icon-container'/>
+              </a>
+              <a href='https://github.com/oceanlatte' target='_blank' className='d-block href-contact my-3'>
+                GitHub
               </a>
             </div>
             

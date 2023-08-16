@@ -22,7 +22,6 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: inherit;
 }
 
 h1 a {
@@ -39,8 +38,9 @@ h1 a {
   backdrop-filter: blur(10px);
 }
 
-/* -----UTILS------- */
 
+
+/* -----UTILS------- */
 h2, h3, h4 {
   font-family: var(--work-sans);
 }
@@ -57,7 +57,7 @@ h2, h3, h4 {
   font-family: var(--work-sans);
 }
 
-/*  -header styling-  */
+/* ---header styling----  */
 
 header {
   padding-top: 5px;
@@ -69,16 +69,23 @@ header {
   background-image: var(--header-gradient);
   border-radius: 30px;
   padding: 0 5px;
+  margin-right: 10px;
 }
 
 .nav-links a {
   text-decoration: none;  
+  color: var(--gray);
 }
 
-/*  --about me styling--  */
+/*  ----about me styling----  */
 .about-title-span {
   font-family: 'Parisienne', cursive;
   text-shadow: 2px 2px 3px var(--lavendar);
+}
+
+#pronoun-span {
+  font-size: 1rem;
+  /* font-family: 'Parisienne', cursive; */
 }
 
 .about-description {
@@ -99,7 +106,6 @@ header {
 
 /* -- Portfolio and Project Component styling -- */
 .portfolio-container {
-  /* background-color: #B58DB6; */
   background-image: linear-gradient(to top, #b58db6, #c3aacb, #d4c7df, #e7e3f0, #ffffff);
 }
 
@@ -135,17 +141,6 @@ header {
 .href-contact a:visited {
   color: var(--gray);
 }
-
- /* ----Popover Styling -----
- #popover {
-  background-color: #e6e6e6;
-  width: fit-content;
-  margin-left: 10px;
-  padding: 3px 8px 0 8px;
-  font-size: 15px;
-  visibility: hidden;
-  border-radius: 10px;
- } */
 
  /* ----- Resume Styling ------ */
 .resume {

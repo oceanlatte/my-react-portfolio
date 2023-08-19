@@ -16,7 +16,7 @@ function About() {
         <br/>
         <br/>
         I have been in the workforce since the age of 14 and graduated high school at 16.
-        I have 12 years of experience in a team setting.
+        I have 12 years of experience in a team setting and enjoy working with others.
         I'm known for being a top performer and a leader in my roles. I am a fast learning problem solver looking for a team willing
         to work with me on my career as a web developer. 
         <br/> 

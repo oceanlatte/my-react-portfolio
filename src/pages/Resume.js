@@ -82,45 +82,48 @@ function Resume() {
         here</a>
         ✨</p>
       <article className='ps-4'>
-        <h3 className='mt-3'>Experience</h3>
-        <div className='card-container'>
-            {/* JOB descriptions */}
-            {experienceInfo.map((job) => (
-              <div className='card col-lg-5 col-sm-8 m-3'>
-                <h4 className='card-header'>{job.jobTitle}</h4>
-                <ul>
-                  <li>{job.company}</li>
-                  <li>{job.datesEmployed[0]} - {job.datesEmployed[1]}</li>
-                  <li>{job.description}</li>
-                </ul>
-              </div>
-            ))}
-        </div>
-        <div>
-          <h3 className='mt-3'>Education</h3>
+        <div id='professional-cards' className='d-flex flex-wrap justify-content-left'>
+          <div className='card-container d-flex'>
+          <h3 className='mt-3'>Experience</h3>
+              {/* JOB descriptions */}
+              {experienceInfo.map((job) => (
+                <div className='card col-lg-5 col-sm-8 m-3'>
+                  <h4 className='card-header'>{job.jobTitle}</h4>
+                  <ul>
+                    <li>{job.company}</li>
+                    <li>{job.datesEmployed[0]} - {job.datesEmployed[1]}</li>
+                    <li>{job.description}</li>
+                  </ul>
+                </div>
+              ))}
+          </div>
+          <div>
+            <div className='card-container d-flex flex-wrap'>
+            <h3 className='mt-3'>Education</h3>
+              {education.map((school) => (
+                <div className='card m-3 col-lg-3 col-sm-5'>
+                  <h4 className='card-header'>{school.name}</h4>
+                  <ul>
+                    <li>{school.timeframe}</li>
+                    <li>{school.level}</li>
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
           <div className='card-container d-flex flex-wrap'>
-            {education.map((school) => (
-              <div className='card m-3 col-lg-3 col-sm-5'>
-                <h4 className='card-header'>{school.name}</h4>
-                <ul>
-                  <li>{school.timeframe}</li>
-                  <li>{school.level}</li>
-                </ul>
-              </div>
+          <h3 className='mt-3'>Certifications</h3>
+            {certificates.map((certificate) => (
+                <div className='card m-3 col-lg-3 col-sm-5'>
+                  <h4 className='card-header'>{certificate.certTitle}</h4>
+                  <ul>
+                    <li className='px-1'>{certificate.from}</li>
+                    <li className='px-1'>{certificate.certDate}</li>
+                  </ul>
+                </div>
             ))}
           </div>
-        </div>
-        <h3 className='mt-3'>Certifications</h3>
-        <div className='card-container d-flex flex-wrap'>
-          {certificates.map((certificate) => (
-              <div className='card m-3 col-lg-3 col-sm-5'>
-                <h4 className='card-header'>{certificate.certTitle}</h4>
-                <ul>
-                  <li className='px-1'>{certificate.from}</li>
-                  <li className='px-1'>{certificate.certDate}</li>
-                </ul>
-              </div>
-          ))}
+
         </div>
         <div className='text-center mt-3'>
           <h3><span id='mern-span'>MERN</span> Stack Developer</h3>

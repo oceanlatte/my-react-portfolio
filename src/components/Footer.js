@@ -5,7 +5,7 @@ import linkedInSvg from '../assets/images/footer-icons/linkedin-logo-duotone-svg
 
 function Footer() {
   return (
-    <footer className='py-2 d-flex justify-content-center align-items-center'>
+    <footer className='py-1 d-flex justify-content-center align-items-center'>
       Find me at: 
       <ul className='ul-footer d-flex'>
         <li className='px-5'>

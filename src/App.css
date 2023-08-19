@@ -13,6 +13,9 @@
 body {
   font-family: var(--work-sans);
   font-size: 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -156,6 +159,7 @@ footer {
   font-size: 2rem;
   font-family: var(--work-sans);
   color: var(--gray);
+  margin-top: auto;
 }
 
 .ul-footer {

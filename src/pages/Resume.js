@@ -82,26 +82,26 @@ function Resume() {
         here</a>
         ✨</p>
       <article className='ps-4'>
-        <div id='professional-cards' className='d-flex flex-wrap justify-content-left'>
-          <div className='card-container d-flex'>
-          <h3 className='mt-3'>Experience</h3>
-              {/* JOB descriptions */}
-              {experienceInfo.map((job) => (
-                <div className='card col-lg-5 col-sm-8 m-3'>
-                  <h4 className='card-header'>{job.jobTitle}</h4>
-                  <ul>
-                    <li>{job.company}</li>
-                    <li>{job.datesEmployed[0]} - {job.datesEmployed[1]}</li>
-                    <li>{job.description}</li>
-                  </ul>
-                </div>
-              ))}
+        <div id='professional-cards' className='d-flex flex-wrap'>
+          <div className='card-container d-flex flex-wrap'>
+            <h3 className='mt-3'>Experience</h3>
+                {/* JOB descriptions */}
+                {experienceInfo.map((job) => (
+                  <div className='card d-flex col-lg-5 col-sm-5 m-3'>
+                    <h4 className='card-header'>{job.jobTitle}</h4>
+                    <ul>
+                      <li>{job.company}</li>
+                      <li>{job.datesEmployed[0]} - {job.datesEmployed[1]}</li>
+                      <li>{job.description}</li>
+                    </ul>
+                  </div>
+                ))}
           </div>
           <div>
             <div className='card-container d-flex flex-wrap'>
             <h3 className='mt-3'>Education</h3>
               {education.map((school) => (
-                <div className='card m-3 col-lg-3 col-sm-5'>
+                <div className='card m-3 col-lg-5 col-sm-5'>
                   <h4 className='card-header'>{school.name}</h4>
                   <ul>
                     <li>{school.timeframe}</li>
@@ -114,7 +114,7 @@ function Resume() {
           <div className='card-container d-flex flex-wrap'>
           <h3 className='mt-3'>Certifications</h3>
             {certificates.map((certificate) => (
-                <div className='card m-3 col-lg-3 col-sm-5'>
+                <div className='card m-3 col-lg-5 col-sm-5'>
                   <h4 className='card-header'>{certificate.certTitle}</h4>
                   <ul>
                     <li className='px-1'>{certificate.from}</li>

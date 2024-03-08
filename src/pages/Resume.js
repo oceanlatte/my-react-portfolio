@@ -81,9 +81,9 @@ function Resume() {
       <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
         here</a>
         ✨</p>
-      <article className='ps-4'>
-        <div id='professional-cards' className='d-flex flex-wrap'>
-          <div className='card-container d-flex flex-wrap'>
+      <article className='ps-4 where'>
+        <div id='professional-cards' className='d-flex flex-wrap container here'>
+          <div className='card-container d-flex flex-wrap row'>
             <h3 className='mt-3'>Experience</h3>
                 {/* JOB descriptions */}
                 {experienceInfo.map((job) => (
@@ -98,7 +98,7 @@ function Resume() {
                 ))}
           </div>
           <div>
-            <div className='card-container d-flex flex-wrap'>
+            <div className='card-container d-flex flex-wrap row'>
             <h3 className='mt-3'>Education</h3>
               {education.map((school) => (
                 <div className='card m-3 col-lg-5 col-sm-5'>
@@ -111,7 +111,7 @@ function Resume() {
               ))}
             </div>
           </div>
-          <div className='card-container d-flex flex-wrap'>
+          <div className='card-container d-flex flex-wrap row'>
           <h3 className='mt-3'>Certifications</h3>
             {certificates.map((certificate) => (
                 <div className='card m-3 col-lg-5 col-sm-5'>
@@ -135,7 +135,7 @@ function Resume() {
         </div>
 
         <div className='d-flex flex-wrap mt-5 justify-content-center'>
-          <div className='mx-2'>
+          <div className='mx-2 techny'>
             <h4>Technologies</h4>
             <ul>
               {techSkills.map((skill) => (

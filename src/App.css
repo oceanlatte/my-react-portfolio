@@ -153,6 +153,19 @@ header {
   font-weight: bold;
 }
 
+.where {
+  padding: 10px 10px;
+  border: 10px solid red;
+}
+
+.here {
+  border: 10px solid purple;
+}
+
+.techny {
+  border: 10px solid green;
+}
+
 /* ---- Footer Styling ---- */
 footer {
   background-color: var(--lavendar);

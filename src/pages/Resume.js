@@ -86,10 +86,10 @@ function Resume() {
         <div id='professional-cards' className='container-fluid container-border'>
           {/* Experience card */}
           <div className='card-container d-flex flex-wrap row row-border'>
-            <h3 className='mb-0 col col-border'>Experience</h3>
-                <div className='col col-border'>
+            <h3 className='mb-0 col-3 col-border'>Experience</h3>
+                <div className='col-9 col-border'>
                 {experienceInfo.map((job) => (
-                  <div className='card d-flex col-lg-5 col-sm-5 m-3'>
+                  <div className='card d-flex m-3'>
                     <h4 className='card-header'>{job.jobTitle}</h4>
                     <ul>
                       <li>{job.company}</li>
@@ -102,10 +102,10 @@ function Resume() {
           </div>
           {/* Education Card  */}
             <div className='card-container d-flex flex-wrap row row-border'>
-            <h3 className='mb-0 col col-border'>Education</h3>
-            <div className='col col-border'>
+            <h3 className='mb-0 col-3 col-border'>Education</h3>
+            <div className='col-9 col-border'>
               {education.map((school) => (
-                <div className='card m-3 col-lg-5 col-sm-5'>
+                <div className='card m-3'>
                   <h4 className='card-header'>{school.name}</h4>
                   <ul>
                     <li>{school.timeframe}</li>
@@ -117,10 +117,10 @@ function Resume() {
             </div>
             {/* Certifications Card  */}
           <div className='card-container d-flex flex-wrap row row-border'>
-            <h3 className='mb-0 col col-border'>Certifications</h3>
-              <div className='col col-border'>
+            <h3 className='mb-0 col-3 col-border'>Certifications</h3>
+              <div className='col-9 col-border'>
                 {certificates.map((certificate) => (
-                    <div className='card m-3 col-lg-5 col-sm-5'>
+                    <div className='card m-3'>
                       <h4 className='card-header'>{certificate.certTitle}</h4>
                       <ul>
                         <li className='px-1'>{certificate.from}</li>

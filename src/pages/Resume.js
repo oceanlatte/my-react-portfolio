@@ -81,9 +81,9 @@ function Resume() {
       <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
         here</a>
         ✨</p>
-      <article className='ps-4 article-border'>
+      <article className='article-border d-flex flex-wrap '>
         {/* Start of Professional Cards  */}
-        <div id='professional-cards' className='d-flex flex-wrap container container-border'>
+        <div id='professional-cards' className='container-fluid container-border'>
           {/* Experience card */}
           <div className='card-container d-flex flex-wrap row row-border'>
             <h3 className='mb-0 col col-border'>Experience</h3>

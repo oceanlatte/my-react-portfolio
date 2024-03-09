@@ -81,11 +81,12 @@ function Resume() {
       <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
         here</a>
         ✨</p>
-      <article className='ps-4 where'>
-        <div id='professional-cards' className='d-flex flex-wrap container here'>
-          <div className='card-container d-flex flex-wrap row'>
-            <h3 className='mt-3'>Experience</h3>
+      <article className='ps-4 article-border'>
+        <div id='professional-cards' className='d-flex flex-wrap container container-border'>
+          <div className='card-container d-flex flex-wrap row row-border'>
+            <h3 className='mb-0 col col-border'>Experience</h3>
                 {/* JOB descriptions */}
+                <div className='col col-border'>
                 {experienceInfo.map((job) => (
                   <div className='card d-flex col-lg-5 col-sm-5 m-3'>
                     <h4 className='card-header'>{job.jobTitle}</h4>
@@ -96,6 +97,7 @@ function Resume() {
                     </ul>
                   </div>
                 ))}
+                </div>
           </div>
           <div>
             <div className='card-container d-flex flex-wrap row'>

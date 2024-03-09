@@ -153,17 +153,25 @@ header {
   font-weight: bold;
 }
 
-.where {
-  padding: 10px 10px;
+/* Resume styling helpers */
+.article-border {
   border: 10px solid red;
 }
 
-.here {
+.container-border {
   border: 10px solid purple;
 }
 
 .techny {
   border: 10px solid green;
+}
+
+.row-border {
+  border: 10px solid turquoise;
+}
+
+.col-border {
+  border: 10px solid orange;
 }
 
 /* ---- Footer Styling ---- */

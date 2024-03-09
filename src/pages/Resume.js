@@ -81,12 +81,12 @@ function Resume() {
       <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
         here</a>
         ✨</p>
-      <article className='article-border d-flex flex-wrap '>
+      <article className='article-border d-flex flex-wrap'>
         {/* Start of Professional Cards  */}
         <div id='professional-cards' className='container-fluid container-border'>
           {/* Experience card */}
           <div className='card-container d-flex flex-wrap row row-border'>
-            <h3 className='mb-0 col-3 col-border'>Experience</h3>
+            <h3 className='mb-0 col-3 col-border resume-headers'>Experience</h3>
                 <div className='col-9 col-border'>
                 {experienceInfo.map((job) => (
                   <div className='card d-flex m-3'>
@@ -134,7 +134,7 @@ function Resume() {
         </div>
         <div className='text-center mt-3'>
           <h3><span id='mern-span'>MERN</span> Stack Developer</h3>
-          <ul className='list-group list-group-horizontal d-flex justify-content-center'>
+          <ul className='list-group list-group-horizontal d-flex justify-content-center flex-wrap'>
             {mernStack.map((skill) => (
               <li className='px-5 list-group-item'>{skill}</li>
             ))}

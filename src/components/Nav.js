@@ -5,7 +5,7 @@ function Nav(props) {
   const { linkSelected, setLinkSelected, handleClick } = props;
 
   return (
-    <nav className='d-flex nav-links' >
+    <nav className='d-flex flex-wrap nav-links' >
       <a href={linkSelected} className='px-3 nav-links' onClick={handleClick} >
           About Me
         </a>

@@ -14,7 +14,6 @@ body {
   font-family: var(--work-sans);
   font-size: 1.5rem;
   min-height: 100vh;
-  min-width: fit-content;
   display: flex;
   flex-direction: column;
 }
@@ -42,8 +41,6 @@ h1 a {
   /* backdrop-filter: blur(10px); */
 }
 
-
-
 /* -----UTILS------- */
 h2, h3, h4 {
   font-family: var(--work-sans);
@@ -65,10 +62,11 @@ h2, h3, h4 {
 
 header {
   padding-top: 5px;
+  /* max-width: fit-content; */
 }
 
 .nav-links {
-    font-family: var(--work-sans);
+  font-family: var(--work-sans);
   font-size: 1.25rem;
   background-image: var(--header-gradient);
   border-radius: 30px;
@@ -152,6 +150,10 @@ header {
 
 #mern-span {
   font-weight: bold;
+}
+
+.resume-headers {
+  font-size: 150%;
 }
 
 /* Resume styling helpers */

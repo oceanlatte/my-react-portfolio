@@ -81,13 +81,13 @@ function Resume() {
       <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
         here</a>
         ✨</p>
-      <article className='article-border d-flex flex-wrap'>
+      <article className='d-flex flex-wrap'>
         {/* Start of Professional Cards  */}
-        <div id='professional-cards' className='container-fluid container-border'>
+        <div id='professional-cards' className='container-fluid'>
           {/* Experience card */}
-          <div className='card-container d-flex flex-wrap row row-border'>
-            <h3 className='mb-0 col-3 col-border resume-headers'>Experience</h3>
-                <div className='col-9 col-border'>
+          <div className='card-container d-flex flex-wrap row'>
+            <h3 className='mb-0 col-3 resume-headers'>Experience</h3>
+                <div className='col-9'>
                 {experienceInfo.map((job) => (
                   <div className='card d-flex m-3'>
                     <h4 className='card-header'>{job.jobTitle}</h4>
@@ -101,9 +101,9 @@ function Resume() {
                 </div>
           </div>
           {/* Education Card  */}
-            <div className='card-container d-flex flex-wrap row row-border'>
-            <h3 className='mb-0 col-3 col-border'>Education</h3>
-            <div className='col-9 col-border'>
+            <div className='card-container d-flex flex-wrap row'>
+            <h3 className='mb-0 col-3'>Education</h3>
+            <div className='col-9'>
               {education.map((school) => (
                 <div className='card m-3'>
                   <h4 className='card-header'>{school.name}</h4>
@@ -116,9 +116,9 @@ function Resume() {
               </div>
             </div>
             {/* Certifications Card  */}
-          <div className='card-container d-flex flex-wrap row row-border'>
-            <h3 className='mb-0 col-3 col-border'>Certifications</h3>
-              <div className='col-9 col-border'>
+          <div className='card-container d-flex flex-wrap row'>
+            <h3 className='mb-0 col-3'>Certifications</h3>
+              <div className='col-9'>
                 {certificates.map((certificate) => (
                     <div className='card m-3'>
                       <h4 className='card-header'>{certificate.certTitle}</h4>
@@ -133,7 +133,7 @@ function Resume() {
         {/* End Professional Cards  */}
         </div>
 
-        <div className='text-center container-fluid mt-3 row row-border gx-0'>
+        <div className='text-center container-fluid mt-3 row gx-0'>
           <h3><span id='mern-span'>MERN</span> Stack Developer</h3>
           <ul className='list-group list-group-horizontal d-flex justify-content-center flex-wrap'>
             {mernStack.map((skill) => (
@@ -141,18 +141,18 @@ function Resume() {
             ))}
           </ul>
         </div>
-        <div className='skills-container container-fluid gx-0'>
-        <div className='d-flex flex-wrap mt-5 justify-content-center'>
-          <div className='techny col'>
+        <div className='row gx-0 container-fluid '>
+        <div className='d-flex flex-wrap justify-content-evenly mt-5'>
+          <div className='col-3'>
             <h4>Technologies</h4>
-            <ul>
+            <ul className='ju'>
               {techSkills.map((skill) => (
                 <li>{skill}</li>
               ))}
             </ul>
           </div>
         
-          <div className='techny col'>
+          <div className='col-3'>
             <h4>Soft Skills</h4>
               <ul>
                 {softSkills.map((skill) => (

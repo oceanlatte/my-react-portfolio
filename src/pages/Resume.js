@@ -132,7 +132,8 @@ function Resume() {
           </div>
         {/* End Professional Cards  */}
         </div>
-        <div className='text-center mt-3'>
+
+        <div className='text-center container-fluid mt-3 row row-border gx-0'>
           <h3><span id='mern-span'>MERN</span> Stack Developer</h3>
           <ul className='list-group list-group-horizontal d-flex justify-content-center flex-wrap'>
             {mernStack.map((skill) => (
@@ -140,9 +141,9 @@ function Resume() {
             ))}
           </ul>
         </div>
-
+        <div className='skills-container container-fluid gx-0'>
         <div className='d-flex flex-wrap mt-5 justify-content-center'>
-          <div className='mx-2 techny'>
+          <div className='techny col'>
             <h4>Technologies</h4>
             <ul>
               {techSkills.map((skill) => (
@@ -151,13 +152,14 @@ function Resume() {
             </ul>
           </div>
         
-          <div className='mx-2'>
+          <div className='techny col'>
             <h4>Soft Skills</h4>
               <ul>
                 {softSkills.map((skill) => (
                   <li>{skill}</li>
                 ))}
               </ul>
+          </div>
           </div>
         </div>
       </article>

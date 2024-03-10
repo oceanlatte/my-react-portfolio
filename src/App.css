@@ -177,6 +177,10 @@ header {
   border: 10px solid orange;
 }
 
+.skills-container {
+  border: 10px solid yellow;
+}
+
 /* ---- Footer Styling ---- */
 footer {
   background-color: var(--lavendar);

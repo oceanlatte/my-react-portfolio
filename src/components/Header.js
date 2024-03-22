@@ -23,7 +23,7 @@ function Header(props) {
   }
 
   return (
-    <header className='d-flex justify-content-between align-items-center'>
+    <header className='d-flex flex-wrap justify-content-between align-items-center'>
       <h1 className='mx-3'>
         <a href='/' onClick={() => setLinkSelected(null)}>
           <span id='header-name'>Ocean</span></a>

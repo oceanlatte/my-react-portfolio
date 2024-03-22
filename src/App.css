@@ -41,8 +41,6 @@ h1 a {
   /* backdrop-filter: blur(10px); */
 }
 
-
-
 /* -----UTILS------- */
 h2, h3, h4 {
   font-family: var(--work-sans);
@@ -64,10 +62,11 @@ h2, h3, h4 {
 
 header {
   padding-top: 5px;
+  /* max-width: fit-content; */
 }
 
 .nav-links {
-    font-family: var(--work-sans);
+  font-family: var(--work-sans);
   font-size: 1.25rem;
   background-image: var(--header-gradient);
   border-radius: 30px;
@@ -151,6 +150,35 @@ header {
 
 #mern-span {
   font-weight: bold;
+}
+
+.resume-headers {
+  font-size: 150%;
+}
+
+/* Resume styling helpers */
+.article-border {
+  border: 10px solid red;
+}
+
+.container-border {
+  border: 10px solid purple;
+}
+
+.techny {
+  border: 10px solid green;
+}
+
+.row-border {
+  border: 10px solid turquoise;
+}
+
+.col-border {
+  border: 10px solid orange;
+}
+
+.skills-container {
+  border: 10px solid yellow;
 }
 
 /* ---- Footer Styling ---- */

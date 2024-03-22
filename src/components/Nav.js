@@ -1,20 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 
-function Nav() {
-  
+function Nav(props) {
+  const { linkSelected, setLinkSelected, handleClick } = props;
+
   return (
-    <nav className='d-flex nav-links'>
-      <a href='#about' className='px-3 nav-links' >
+    <nav className='d-flex nav-links' >
+      <a href={linkSelected} className='px-3 nav-links' onClick={handleClick} >
           About Me
         </a>
-      <a href='#portfolio' className='px-3 nav-links'>
+      <a href={linkSelected} className='px-3 nav-links' onClick={handleClick}>
           Portfolio
         </a>
-      <a href='#contact' className='px-3 nav-links' >
+      <a href={linkSelected} className='px-3 nav-links' onClick={handleClick}>
           Contact
         </a>
-      <a href='#resume' className='px-3 nav-links'>
+      <a href={linkSelected} className='px-3 nav-links' onClick={handleClick}>
           Resume
         </a>
     </nav>

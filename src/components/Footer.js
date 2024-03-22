@@ -5,9 +5,9 @@ import linkedInSvg from '../assets/images/footer-icons/linkedin-logo-duotone-svg
 
 function Footer() {
   return (
-    <footer className='py-1 d-flex justify-content-center align-items-center'>
+    <footer className='py-1 d-flex justify-content-center align-items-center flex-wrap'>
       Find me at: 
-      <ul className='ul-footer d-flex'>
+      <ul className='ul-footer d-flex flex-wrap'>
         <li className='px-5'>
           <a href='https://twitter.com/oceanlatte222' target='_blank' rel='noreferrer'>
             <img src={twitterSvg} className='svg-container' alt='twitter logo'/>

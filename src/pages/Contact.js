@@ -10,7 +10,7 @@ function Contact() {
     <main className='mt-4 ps-2 mb-2' id='contact'>
       <h2 className='section-title'>Contact</h2>
         <div>
-          <div className='d-flex justify-content-around py-4 text-center'>
+          <div className='d-flex flex-wrap justify-content-around py-4 text-center'>
             {/* Phone Contact Div  */}
             <div>
               <a href='tel:6088522565' className='href-contact'>

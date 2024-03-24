@@ -89,7 +89,7 @@ function Resume() {
             <h3 className='mb-0 col-3 resume-headers'>Experience</h3>
                 <div className='col-9'>
                 {experienceInfo.map((job) => (
-                  <div className='card d-flex m-3'>
+                  <div className='card d-flex m-3' key={job.jobTitle}>
                     <h4 className='card-header'>{job.jobTitle}</h4>
                     <ul>
                       <li>{job.company}</li>
@@ -105,7 +105,7 @@ function Resume() {
             <h3 className='mb-0 col-3'>Education</h3>
             <div className='col-9'>
               {education.map((school) => (
-                <div className='card m-3'>
+                <div className='card m-3' key={school.name}>
                   <h4 className='card-header'>{school.name}</h4>
                   <ul>
                     <li>{school.timeframe}</li>
@@ -120,7 +120,7 @@ function Resume() {
             <h3 className='mb-0 col-3'>Certifications</h3>
               <div className='col-9'>
                 {certificates.map((certificate) => (
-                    <div className='card m-3'>
+                    <div className='card m-3' key={certificate.certTitle}>
                       <h4 className='card-header'>{certificate.certTitle}</h4>
                       <ul>
                         <li className='px-1'>{certificate.from}</li>

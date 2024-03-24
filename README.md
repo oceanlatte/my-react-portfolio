@@ -1,7 +1,7 @@
 # My React Portfolio
 
 ## Description
-This application is intended to show case skills with React.js. As well as share my previous works with potential employers.
+This application is intended to showcase my skills with React.js. As well as share my previous work with potential employers.
 
 ## Built With
 * React.js
@@ -11,4 +11,4 @@ This application is intended to show case skills with React.js. As well as share
 
 ## Preview
 Find the finished application [here](https://oceanlatte.github.io/my-react-portfolio/)
-![react-portfolio-preview](./src/assets/images/oceans-portfolio.png)
+![react-portfolio-preview](./src/assets/images/project-shots/oceans-portfolio.png)

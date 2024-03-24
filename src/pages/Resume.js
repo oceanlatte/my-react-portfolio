@@ -137,7 +137,7 @@ function Resume() {
           <h3><span id='mern-span'>MERN</span> Stack Developer</h3>
           <ul className='list-group list-group-horizontal d-flex justify-content-center flex-wrap'>
             {mernStack.map((skill) => (
-              <li className='px-5 list-group-item'>{skill}</li>
+              <li className='px-5 list-group-item' key={skill}>{skill}</li>
             ))}
           </ul>
         </div>
@@ -147,7 +147,7 @@ function Resume() {
             <h4>Technologies</h4>
             <ul className='ju'>
               {techSkills.map((skill) => (
-                <li>{skill}</li>
+                <li key={skill}>{skill}</li>
               ))}
             </ul>
           </div>
@@ -156,7 +156,7 @@ function Resume() {
             <h4>Soft Skills</h4>
               <ul>
                 {softSkills.map((skill) => (
-                  <li>{skill}</li>
+                  <li key={skill}>{skill}</li>
                 ))}
               </ul>
           </div>

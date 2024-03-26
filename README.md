@@ -14,3 +14,7 @@ This application is intended to showcase my skills with React.js as well as shar
 ## Preview
 Find the finished application [here](https://oceanlatte.github.io/my-react-portfolio/)
 ![react-portfolio-preview](./src/assets/images/project-shots/oceans-portfolio.png)
+
+## Contact
+<a href='mailto:osciris.veliz@gmail.com' className='href-contact'>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)  </a>   
+<a href="https://www.linkedin.com/in/ocean-veliz-921693239/">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>

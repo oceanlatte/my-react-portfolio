@@ -92,12 +92,12 @@ function Resume() {
     <div className="px-3 resume mt-4" id="resume">
       <h2 className="section-title">Resume 🖇️</h2>
       <p>
-        Download a copy of my resume ✨
+        Download a copy of my ✨
         <a
           href={require("../assets/files/ocean-veliz-resume-2024.pdf")}
           download="ocean-veliz-resume"
         >
-          here
+          resume
         </a>
         ✨
       </p>

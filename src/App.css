@@ -18,6 +18,14 @@ body {
   flex-direction: column;
 }
 
+#root {
+  min-height: 100vh;
+}
+
+#app-main {
+  align-items: stretch;
+}
+
 a {
   text-decoration: none;
   color: inherit;

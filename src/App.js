@@ -26,12 +26,12 @@ function App() {
   }
 
   return (
-    <div className='body-container'>
+    <div className='d-flex flex-column vh-100'>
       <Header 
          linkSelected={linkSelected}
          setLinkSelected={setLinkSelected}
       />
-      <main>
+      <main id='app-main'>
         {linkSelected === null ? (<About/>) : (
           renderComponent()
         )}

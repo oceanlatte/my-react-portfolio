@@ -78,7 +78,7 @@ function Resume() {
   return (
     <div className='px-3 resume mt-4' id='resume'>
       <h2 className='section-title'>Resume 🖇️</h2>
-      <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume.pdf')} download='ocean-veliz-resume'>
+      <p>Download a copy of my resume ✨<a href={require('../assets/files/ocean-veliz-resume-2024.pdf')} download='ocean-veliz-resume'>
         here</a>
         ✨</p>
       <article className='d-flex flex-wrap'>

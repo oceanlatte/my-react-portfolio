@@ -105,17 +105,17 @@ function Resume() {
         </a>
         ✨
       </p>
-      <article className="d-flex flex-wrap">
+      <article className="d-flex flex-wrap text-center mt-5">
         {/* Start of Professional Cards  */}
         <div id="professional-cards" className="container-fluid">
           {/* Experience card */}
-          <div className="card-container d-flex flex-wrap row">
+          <div className="card-container d-flex flex-wrap row mb-5">
             <h3 className="mb-0 col-3 resume-headers">Experience</h3>
-            <div className="col-9">
+            <div className="col-8">
               {experienceInfo.map((job) => (
                 <div className="card d-flex m-3" key={job.jobTitle}>
                   <h4 className="card-header">{job.jobTitle}</h4>
-                  <ul>
+                  <ul className="card-text list-style">
                     <li>{job.company}</li>
                     <li>
                       {job.datesEmployed[0]} - {job.datesEmployed[1]}
@@ -127,28 +127,29 @@ function Resume() {
             </div>
           </div>
           {/* Certifications Card  */}
-          <div className="card-container d-flex flex-wrap row">
+          <div className="card-container d-flex flex-wrap row mb-5">
             <h3 className="mb-0 col-3">Certifications</h3>
-            <div className="col-9">
+            <div className="col-8">
               {certificates.map((certificate) => (
                 <div className="card m-3" key={certificate.certTitle}>
                   <h4 className="card-header">{certificate.certTitle}</h4>
-                  <ul>
+                  <ul className="card-text pt-2 mb-0 list-style">
                     <li className="px-1">{certificate.from}</li>
                     <li className="px-1">{certificate.certDate}</li>
                   </ul>
+                  <img src={certificate.certPhoto} alt={certificate.certTitle} className="card-img-bottom mt-0" />
                 </div>
               ))}
             </div>
           </div>
           {/* Education Card  */}
-          <div className="card-container d-flex flex-wrap row">
+          <div className="card-container d-flex flex-wrap row mb-5">
             <h3 className="mb-0 col-3">Education</h3>
-            <div className="col-9">
+            <div className="col-8">
               {education.map((school) => (
                 <div className="card m-3" key={school.name}>
                   <h4 className="card-header">{school.name}</h4>
-                  <ul>
+                  <ul className="list-style">
                     <li>{school.timeframe}</li>
                     <li>{school.level}</li>
                   </ul>
@@ -159,7 +160,7 @@ function Resume() {
           {/* End Professional Cards  */}
         </div>
 
-        <div className="text-center container-fluid mt-3 row gx-0">
+        <div className="container-fluid mt-3 row gx-0">
           <h3>
             <span id="mern-span">MERN</span> Stack Developer
           </h3>
@@ -175,7 +176,7 @@ function Resume() {
           <div className="d-flex flex-wrap justify-content-evenly mt-5">
             <div className="col-3">
               <h4>Technologies</h4>
-              <ul className="ju">
+              <ul className="text-start">
                 {techSkills.map((skill) => (
                   <li key={skill}>{skill}</li>
                 ))}
@@ -184,7 +185,7 @@ function Resume() {
 
             <div className="col-3">
               <h4>Soft Skills</h4>
-              <ul>
+              <ul className="text-start">
                 {softSkills.map((skill) => (
                   <li key={skill}>{skill}</li>
                 ))}

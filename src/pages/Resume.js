@@ -1,4 +1,8 @@
 import React from "react";
+import learnTesting from '../assets/images/certificates/codecademy-learn-testing-cert.jpg';
+import learnReact from '../assets/images/certificates/codecademy-react-cert.jpg';
+import fullStackCert from '../assets/images/certificates/full-stack-cert.jpg';
+import advJavaScript from '../assets/images/certificates/ed2go-adv-js-cert.jpg';
 
 function Resume() {
   const experienceInfo = [
@@ -36,25 +40,25 @@ function Resume() {
       certTitle: "Full Stack Web Development",
       from: "University of Wisconsin Extended Campus",
       certDate: "November 2022",
-      certPhoto: null,
+      certPhoto: fullStackCert,
     },
     {
       certTitle: "Learn React Course",
       from: "Codecademy",
       certDate: "January 2023",
-      certPhoto: null,
+      certPhoto: learnReact,
     },
     {
       certTitle: "Advanced JavaScript Concepts",
       from: "ed2go",
       certDate: "February 2024",
-      certPhoto: null,
+      certPhoto: advJavaScript,
     },
     {
       certTitle: "Learn Testing for Web Development",
       from: "Codecademy",
       certDate: "February 2024",
-      certPhoto: null,
+      certPhoto: learnTesting,
     }
   ];
 

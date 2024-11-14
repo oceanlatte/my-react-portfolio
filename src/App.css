@@ -66,6 +66,10 @@ h2, h3, h4 {
   font-family: var(--work-sans);
 }
 
+.list-style {
+  list-style-type: none;
+}
+
 /* ---header styling----  */
 
 header {
@@ -165,7 +169,7 @@ header {
 }
 
 /* Resume styling helpers */
-.article-border {
+/* .article-border {
   border: 10px solid red;
 }
 
@@ -187,7 +191,7 @@ header {
 
 .skills-container {
   border: 10px solid yellow;
-}
+} */
 
 /* ---- Footer Styling ---- */
 footer {

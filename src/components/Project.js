@@ -44,12 +44,12 @@ function Project() {
       gitHub: 'https://github.com/oceanlatte/sinato',
       image: sinato
     }, 
-    {
-      name: 'Bios Todos',
-      link: 'https://biostodos.herokuapp.com/',
-      gitHub: 'https://github.com/oceanlatte/bios-planner',
-      image: bios
-    }
+    // {
+    //   name: 'Bios Todos',
+    //   link: 'https://biostodos.herokuapp.com/',
+    //   gitHub: 'https://github.com/oceanlatte/bios-planner',
+    //   image: bios
+    // }
   ];
 
   

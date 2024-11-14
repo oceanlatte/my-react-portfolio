@@ -15,9 +15,6 @@ This application is intended to showcase my skills with React.js as well as shar
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
 
 ## Preview
-Find the finished application [here](https://oceanlatte.github.io/portfolio/)
-![react-portfolio-preview](./src/assets/images/oceans-portfolio.png)
-
 Find the finished application [here](https://oceanlatte.github.io/my-react-portfolio/)
 ![react-portfolio-preview](./src/assets/images/project-shots/react-portfolio-prev4.jpg)
 

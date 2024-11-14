@@ -1,24 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Resume from './components/Resume';
 
 function App() {
+  const [linkSelected, setLinkSelected] = useState(null);
 
+  const renderComponent = () => {
+    switch (linkSelected) {
+      case '#about-me':
+        return <About/>
+      case '#portfolio':
+        return <Portfolio/>
+      case '#resume':
+        return <Resume/>
+      case '#contact':
+        return <Contact/>
+      default:
+        <About />
+    }
+  }
 
   return (
-    <div>
-      <Header>
-      </Header>
-      <main>
-        <About />
-        <Portfolio/>
-        <Contact />
-        <Resume />
+    <div className='d-flex flex-column vh-100'>
+      <Header 
+         linkSelected={linkSelected}
+         setLinkSelected={setLinkSelected}
+      />
+      <main id='app-main'>
+        {linkSelected === null ? (<About/>) : (
+          renderComponent()
+        )}
       </main>
       <Footer/>
     </div>

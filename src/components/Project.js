@@ -1,11 +1,10 @@
 import React from 'react';
-import codeQuiz from '../assets/images/code-quiz-preview.png';
-import cssPortfolio from '../assets/images/portfolio-preview.jpg';
-import weatherForecaster from '../assets/images/weather-forecaster-preview.png';
-import boozeNBinge from '../assets/images/booze-n-binge-preview.png';
-import scheduler from '../assets/images/scheduler-preview.png';
-import sinato from '../assets/images/sinato-homepage.png';
-import bios from '../assets/images/bios-preview.png';
+import codeQuiz from '../assets/images/project-shots/code-quiz-preview.png';
+import cssPortfolio from '../assets/images/project-shots/portfolio-preview.jpg';
+import weatherForecaster from '../assets/images/project-shots/weather-forecaster-preview.png';
+import boozeNBinge from '../assets/images/project-shots/booze-n-binge-preview.png';
+import scheduler from '../assets/images/project-shots/scheduler-preview.png';
+import sinato from '../assets/images/project-shots/sinato-homepage.png';
 import '../App.css';
 
 function Project() {
@@ -55,9 +54,9 @@ function Project() {
 
   
   return (
-    <div className='card-container d-flex justify-content-around flex-wrap'>
+    <div className='card-container d-flex flex-wrap justify-content-around'>
     {projInfo.map((project) => (
-          <div className='card m-3 mx-5 col-lg-5 col-sm-10 p-3 flex-grow-1' id='card-styling' key={project.name}>
+          <div className='card m-3 mx-5 p-3 col-lg-5 col-sm-10' id='card-styling' key={project.name}>
             <h3><a href={project.link} target='_blank' rel='noreferrer'>{project.name}</a></h3>
             <p>View the <a href={project.gitHub}>GitHub repo</a></p>
             <img src={project.image} alt=''/>

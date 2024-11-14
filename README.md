@@ -19,7 +19,7 @@ Find the finished application [here](https://oceanlatte.github.io/portfolio/)
 ![react-portfolio-preview](./src/assets/images/oceans-portfolio.png)
 
 Find the finished application [here](https://oceanlatte.github.io/my-react-portfolio/)
-![react-portfolio-preview](./src/assets/images/project-shots/react-portfolio-preview-2.png)
+![react-portfolio-preview](./src/assets/images/project-shots/react-portfolio-prev4.jpg)
 
 ## Contact
 <a href='mailto:osciris.veliz@gmail.com' className='href-contact'>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)  </a>   

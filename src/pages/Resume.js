@@ -105,7 +105,7 @@ function Resume() {
         </a>
         ✨
       </p>
-      <article className="d-flex flex-wrap text-center mt-5">
+      <article className="d-flex flex-wrap">
         {/* Start of Professional Cards  */}
         <div id="professional-cards" className="container-fluid">
           {/* Experience card */}
@@ -129,7 +129,7 @@ function Resume() {
           {/* Certifications Card  */}
           <div className="card-container d-flex flex-wrap row mb-5">
             <h3 className="mb-0 pe-4 col-2">Certifications</h3>
-            <div className="col-4">
+            <div className="col-8">
               {certificates.map((certificate) => (
                 <div className="card m-3" key={certificate.certTitle}>
                   <h4 className="card-header">{certificate.certTitle}</h4>
@@ -145,7 +145,7 @@ function Resume() {
           {/* Education Card  */}
           <div className="card-container d-flex flex-wrap row mb-5">
             <h3 className="mb-0 pe-4 col-2">Education</h3>
-            <div className="col-4">
+            <div className="col-5">
               {education.map((school) => (
                 <div className="card m-3" key={school.name}>
                   <h4 className="card-header">{school.name}</h4>
@@ -160,7 +160,7 @@ function Resume() {
           {/* End Professional Cards  */}
         </div>
 
-        <div className="container-fluid mt-3 row gx-0">
+        <div className="text-center container-fluid mt-3 row gx-0">
           <h3>
             <span id="mern-span">MERN</span> Stack Developer
           </h3>

@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0906633d.css",
-    "main.js": "/portfolio/static/js/main.5c5f3aca.js",
+    "main.css": "/portfolio/static/css/main.959e741e.css",
+    "main.js": "/portfolio/static/js/main.f48760b0.js",
+    "static/media/ed2go-adv-js-cert.jpg": "/portfolio/static/media/ed2go-adv-js-cert.1a5b219d41e4480b113b.jpg",
     "static/media/portfolio-img-1.JPG": "/portfolio/static/media/portfolio-img-1.36510fec42d9a679b0e8.JPG",
     "static/media/booze-n-binge-preview.png": "/portfolio/static/media/booze-n-binge-preview.bc911622d220e23420f8.png",
-    "static/media/bios-preview.png": "/portfolio/static/media/bios-preview.e21cd5cc049715f26c7d.png",
+    "static/media/codecademy-learn-testing-cert.jpg": "/portfolio/static/media/codecademy-learn-testing-cert.4c1bdc1963490001eb71.jpg",
+    "static/media/ocean-veliz-resume-2024.pdf": "/portfolio/static/media/ocean-veliz-resume-2024.e78cf70d404e53243364.pdf",
+    "static/media/codecademy-react-cert.jpg": "/portfolio/static/media/codecademy-react-cert.36c4b16496e80a39bf29.jpg",
     "static/media/portfolio-preview.jpg": "/portfolio/static/media/portfolio-preview.5aee5e1f24ad3bd5b045.jpg",
+    "static/media/full-stack-cert.jpg": "/portfolio/static/media/full-stack-cert.3ce84ea36d8ef36852a4.jpg",
     "static/media/sinato-homepage.png": "/portfolio/static/media/sinato-homepage.8031d29355d9901b7f1c.png",
     "static/media/weather-forecaster-preview.png": "/portfolio/static/media/weather-forecaster-preview.bce8c3c50c584e7fdf21.png",
-    "static/media/ocean-veliz-resume.pdf": "/portfolio/static/media/ocean-veliz-resume.9b1a4c3c6c3c3c6e3a51.pdf",
     "static/media/scheduler-preview.png": "/portfolio/static/media/scheduler-preview.5e194ef1fbfc3c5433d7.png",
     "static/media/code-quiz-preview.png": "/portfolio/static/media/code-quiz-preview.dcf79b5a52a9bf176020.png",
+    "static/media/github-blue.svg": "/portfolio/static/media/github-blue.0bb80b8b9b816978d9b33261bd3b3c0b.svg",
     "static/media/github-logo-duotone-svgrepo-com.svg": "/portfolio/static/media/github-logo-duotone-svgrepo-com.9b73cae29476ee8d9e2d66e545ec7b45.svg",
     "static/media/twitter-logo-duotone-svgrepo-com.svg": "/portfolio/static/media/twitter-logo-duotone-svgrepo-com.1e99659b37ba760b9f4c5e9bd5331afb.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.8d27a663a85f2287de827ed3a8ecd7ea.svg",
     "static/media/linkedin-logo-duotone-svgrepo-com.svg": "/portfolio/static/media/linkedin-logo-duotone-svgrepo-com.06cd5e2f65ff3ac9f7a4d6579606c8ec.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.2d6dba5e75d053df4690e93bb28fb393.svg",
     "index.html": "/portfolio/index.html",
-    "main.0906633d.css.map": "/portfolio/static/css/main.0906633d.css.map",
-    "main.5c5f3aca.js.map": "/portfolio/static/js/main.5c5f3aca.js.map"
+    "static/media/phone.svg": "/portfolio/static/media/phone.1c4753ae05abbdbb01548aaa19a61999.svg",
+    "main.959e741e.css.map": "/portfolio/static/css/main.959e741e.css.map",
+    "main.f48760b0.js.map": "/portfolio/static/js/main.f48760b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0906633d.css",
-    "static/js/main.5c5f3aca.js"
+    "static/css/main.959e741e.css",
+    "static/js/main.f48760b0.js"
   ]
 }
